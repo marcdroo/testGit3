@@ -6,7 +6,7 @@ namespace ConsoleApp1 {
     class fooClass {
 
         public string  GetAString() {
-            return $"from fooClass @ {DateTime.Now}";
+            return $"from fooClass @{DateTime.Now}";
         }
 
     }
