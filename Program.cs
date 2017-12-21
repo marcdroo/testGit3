@@ -6,6 +6,7 @@ namespace ConsoleApp1 {
             for (int i = 0; i < 10000; i++) { 
                 Console.WriteLine($"{i} - Time is-{new fooClass().GetAString()}");
                 Console.WriteLine("foo");
+                Console.WriteLine("foo2");
             }
             Console.ReadLine();
         }
